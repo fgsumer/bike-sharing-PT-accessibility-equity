@@ -1,0 +1,29 @@
+# Python packages and related tools.
+
+
+# Install with:  pip install -r requirements.txt
+# r5py also needs Java (JDK 21) installed separately. 
+
+# --- Core data ---
+numpy
+pandas
+
+# --- Geospatial ---
+geopandas
+shapely
+pyproj
+rasterio        # used by OSMnx to read the DEM (add_node_elevations_raster)
+
+# --- Networks ---
+networkx
+osmnx>=2.0
+scipy           # used by OSMnx nearest_nodes on projected graphs
+
+# --- Public transport routing ---
+r5py==1.1.2
+
+# --- Notebook / progress bars ---
+jupyter
+ipykernel
+ipywidgets      # needed for tqdm.notebook progress bars
+tqdm
