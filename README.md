@@ -16,8 +16,8 @@ This study examines first mile, last mile and combined station based e-bike inte
 │   └── cache/                                   # generated graphs (not included)
 │
 └── theil_index/
-    ├── create_grid_to_municipality.ipynb        # 4. grid cells → municipality + SES tercile
-    ├── compute_theil.ipynb                      # 5. Theil index and decompositions
+    ├── create_grid_to_municipality.ipynb        
+    ├── compute_theil.ipynb                      
     ├── requirements.txt
     └── data/                                    # input data (not included)
 ```
